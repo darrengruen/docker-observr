@@ -14,7 +14,7 @@ see [observr homepage](https://github.com/kevinburke/observr) for information
 
 ### Note
 
-This is relatively useless by itself. Since observr is used to execute commands, you would need to either extend this image or link it to another container to run most useful commands
+This is relatively useless by itself. Since observr is used to execute commands, you would need to either extend this image or link it to another container to run most useful commands. One possible way to use it without extending is to use the [dockered](/dockered.md) tag. __Please, Please, Please__ read the link first
 
 For information on writing observr script files please see the "Scripts" section on the [observr github page](https://github.com/kevinburke/observr/blob/master/README.md)
 
