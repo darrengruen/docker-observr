@@ -1,11 +1,11 @@
-FROM ruby:slim
+FROM docker
 
-# @TODO Get rev installed
-
-RUN apt-get update \
-    && gem install observr
+RUN apk update
+RUN apk add ruby
+run apk add ruby-irb
+RUN apk add ruby-rdoc
+RUN gem install observr
 
 WORKDIR /app
 
-# CMD [ "observr" ]
-ENTRYPOINT [ 'observr' ]
+ENTRYPOINT [ "observr" ]
