@@ -1,4 +1,4 @@
-FROM docker
+FROM docker:1.13.1
 
 RUN apk update
 RUN apk add ruby
