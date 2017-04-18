@@ -5,6 +5,7 @@ RUN apk --update upgrade && \
         ruby \
         ruby-irb \
         ruby-rdoc \
+        libnotify \
         inotify-tools && \
     gem install observr && \
     rm -rf /var/cache/apk/*
